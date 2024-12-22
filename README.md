@@ -11,6 +11,23 @@
 ## 🔎 What's this script do?
 <p align="justify"><b>tl;dr</b>: Normaly, players with more than 50 characters must delete "exceeding" characters to be able to play on the server. This script is a workaround to keep all characters while respecting the 50 characters limit. It will store the "exceeding" characters data in a separate folder, allowing you to restore them later, when the limit will be increased.</p>
 
+### --backup
+1. Get the list of all players/accounts, from the ./PLAYERS_PATH folder.
+2. For each player, get the list of all characters.
+3. If the amount of characters is smaller than the CHARACTERS_LIMIT, skip to the next player.
+4. Sort the characters by the specified attribute (default: `marks`).
+5. Trim the characters list to respect the limit, keeping only the "best" characters.
+6. Store the "exceeding" characters as in array in ./TRIMMED_CHARACTERS_PATH/<player_id>.json.
+7. Repeat for all players.
+
+### --restore
+1. Get the list of all players/accounts, from the ./PLAYERS_PATH folder.
+2. For each player, get the list of their (eventually) trimmed characters.
+3. Add the trimmed characters to the original characters list.
+4. Delete the trimmed characters file.
+5. Repeat for all players.
+
+
 |                      ![Path of Titans](./pot.gif)                       |
 |:-----------------------------------------------------------------------:|
 | *Running `python3 app.py --backup` with the CHARACTERS_LIMIT set to 3.* |
