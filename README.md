@@ -1,5 +1,7 @@
 # Path of Titans Characters Limit Mitigator
 
+**Status** (2024-12-23 00:08) : Working, yet still work in progress.
+
 > ## Patch 37200 Hotfix 23
 > 
 >  **Important: Changes to game max supported character limit for Community > Servers:**
@@ -24,7 +26,7 @@
 3. At the beginning of the script, update `CHARACTERS_LIMIT`, `CHARACTERS_PATH`, `PLAYERS_PATH` & `TRIMMED_CHARACTERS_PATH` variables as needed.
 4. Use `python app.py` or `python3 app.py` to run the script.
 
-### 🖥️ Arguments
+## 🖥️ Arguments
 ```python
 usage: app.py [-h] [--backup] [--restore] [--sort-by {marks,actualGrowth,lastPlayedDate}] [--simulate]
 
