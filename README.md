@@ -7,10 +7,10 @@
 > - We plan on updating the game to better support handling a higher number of saved characters in the future. When this happens, we will expand the character limit.
 
 ## 🔎 What's this script do?
-**tl;dr**: Normaly, players with more than 50 characters must delete "exceeding" characters to be able to play on the server. This script is a workaround to keep all characters while respecting the 50 characters limit. It will store the "exceeding" characters data in a separate folder, allowing you to restore them later, when the limit will be increased.
+<p style="text-align: justify;">**tl;dr**: Normaly, players with more than 50 characters must delete "exceeding" characters to be able to play on the server. This script is a workaround to keep all characters while respecting the 50 characters limit. It will store the "exceeding" characters data in a separate folder, allowing you to restore them later, when the limit will be increased.</p>
 
-| ![Path of Titans](./pot.gif) | 
-|:--:| 
+|                      ![Path of Titans](./pot.gif)                       |
+|:-----------------------------------------------------------------------:|
 | *Running `python3 app.py --backup` with the CHARACTERS_LIMIT set to 3.* |
 
 ## ⚠ Warnings & Disclaimers
