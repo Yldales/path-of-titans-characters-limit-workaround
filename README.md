@@ -7,7 +7,8 @@
 > - We plan on updating the game to better support handling a higher number of saved characters in the future. When this happens, we will expand the character limit.
 
 ## 🔎 What's this script do?
-Instead of players deleting their characters to comply with the new limit, this script will sort players' characters by their ratings (or any other criteria) and trim the characters that exceed the limit. The script will also keep track of the truncated characters and restore them when the limit is increased.
+**tl;dr**: Normaly, players with more than 50 characters must delete "exceeding" characters to be able to play on the server. This script is a workaround to keep all characters while respecting the 50 characters limit. It will store the "exceeding" characters data in a separate folder, allowing you to restore them later, when the limit will be increased.
+
 
 ## ⚠ Warnings & Disclaimers
 1. This script was made in a hurry and has not been thoroughly tested. Use it at your own risk. Note that the script will create a .zip file or both account and character folders before making any changes. This is to ensure that you can roll back the changes if something goes wrong.
