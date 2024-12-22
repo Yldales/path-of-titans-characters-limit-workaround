@@ -21,7 +21,7 @@
 
 1. Download the app.py script.
 2. Put the script in the same directory as the `Account` and `Character` folders.
-3. At the beginning of the script, update `CHARACTERS_LIMIT`, `CHARACTERS_PATH`, `PLAYERS_PATH` & `TRIMMED_CHARACTERS_PATH` variables.
+3. At the beginning of the script, update `CHARACTERS_LIMIT`, `CHARACTERS_PATH`, `PLAYERS_PATH` & `TRIMMED_CHARACTERS_PATH` variables as needed.
 4. Use `python app.py` or `python3 app.py` to run the script.
 
 ### 🖥️ Arguments
