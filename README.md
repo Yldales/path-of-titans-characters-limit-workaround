@@ -9,6 +9,26 @@
 ## What's this script do?
 Instead of players deleting their characters to comply with the new limit, this script will sort players' characters by their ratings (or any other criteria) and trim the characters that exceed the limit. The script will also keep track of the truncated characters and restore them when the limit is increased.
 
-## Warning & Disclaimers
+## Warnings & Disclaimers
 1. This script has been done on the rush and has not been tested thoroughly. Use it at your own risk. Note that the script will create a .zip file or both Account and Characters folders before making any changes. This is to ensure that you can rollback the changes if something goes wrong.
 2. This script must be run while the server is offline.
+
+## Usage
+1. Download the app.py script.
+2. Put the script in the same directory as the Account and Characters folders.
+3. Use python app.py or python3 app.py to run the script.
+
+### Arguments
+```python
+usage: app.py [-h] [--backup] [--restore] [--sort-by {marks,actualGrowth,lastPlayedDate}] [--simulate]
+
+Path of Titans Characters CHARACTERS_LIMIT Workaround
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --backup              Trim the characters to respect the CHARACTERS_LIMIT.
+  --restore             Restore the trimmed characters.
+  --sort-by {marks,actualGrowth,lastPlayedDate}
+                        Sort characters by the specified attribute.
+  --simulate            Simulate the trimming process without modifying the files.
+```
