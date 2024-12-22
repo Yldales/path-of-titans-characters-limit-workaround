@@ -4,7 +4,7 @@ import zipfile
 import argparse
 from datetime import datetime
 
-CHARACTERS_LIMIT = 3
+CHARACTERS_LIMIT = 50
 CHARACTERS_PATH = './Character'
 PLAYERS_PATH = './Account'
 SORT_OPTIONS = ["marks", "actualGrowth", "lastPlayedDate"]
