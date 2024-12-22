@@ -9,7 +9,9 @@
 ## 🔎 What's this script do?
 **tl;dr**: Normaly, players with more than 50 characters must delete "exceeding" characters to be able to play on the server. This script is a workaround to keep all characters while respecting the 50 characters limit. It will store the "exceeding" characters data in a separate folder, allowing you to restore them later, when the limit will be increased.
 
-![Path of Titans](./pot.gif)
+| ![Path of Titans](./pot.gif) | 
+|:--:| 
+| *Running `python3 app.py --backup* with the CHARACTERS_LIMIT set to 3 |
 
 ## ⚠ Warnings & Disclaimers
 1. **This script was made in a hurry** and has not been thoroughly tested. Use it at your own risk. Note that the script will create a .zip file or both `Account` and `Character` folders before making any changes. This is to ensure that you can roll back the changes if something goes wrong.
