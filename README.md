@@ -35,6 +35,7 @@
 ## ⚠ Warnings & Disclaimers
 1. **This script was made in a hurry** and has not been thoroughly tested. Use it at your own risk. Note that the script will create a .zip file of both `Account` and `Character` folders before making any changes. This is to ensure that you can roll back the changes if something goes wrong.
 2. This script must be run while the server is **fully stopped**.
+3. Sorry for any inconvenience caused by this script. Please let me know if you have any suggestions or if you encounter any issues. I will try to improve it as soon as possible.
 
 ## 📜 Usage
 
