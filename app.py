@@ -134,7 +134,7 @@ def trim_characters(player_file, sort_by):
 
 def main():
     global args
-    parser = argparse.ArgumentParser(description="Path of Titans Characters CHARACTERS_LIMIT Workaround")
+    parser = argparse.ArgumentParser(description="Path of Titans Characters Limit Workaround")
     parser.add_argument('--backup', action='store_true', help="Trim the characters to respect the CHARACTERS_LIMIT.")
     parser.add_argument('--restore', action='store_true', help="Restore the trimmed characters.")
     parser.add_argument('--sort-by', choices=SORT_OPTIONS, default='marks', help="Sort characters by the specified attribute.")

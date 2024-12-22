@@ -11,13 +11,13 @@
 
 
 ## ⚠ Warnings & Disclaimers
-1. This script was made in a hurry and has not been thoroughly tested. Use it at your own risk. Note that the script will create a .zip file or both account and character folders before making any changes. This is to ensure that you can roll back the changes if something goes wrong.
+1. **This script was made in a hurry** and has not been thoroughly tested. Use it at your own risk. Note that the script will create a .zip file or both `Account` and `Character` folders before making any changes. This is to ensure that you can roll back the changes if something goes wrong.
 2. This script must be run while the server is offline.
 
 ## 📜 Usage
 
 1. Download the app.py script.
-2. Put the script in the same directory as the Account and Characters folders.
+2. Put the script in the same directory as the `Account` and `Character` folders.
 3. At the beginning of the script, update `CHARACTERS_LIMIT`, `CHARACTERS_PATH`, `PLAYERS_PATH` & `TRIMMED_CHARACTERS_PATH` variables.
 4. Use `python app.py` or `python3 app.py` to run the script.
 
@@ -25,7 +25,7 @@
 ```python
 usage: app.py [-h] [--backup] [--restore] [--sort-by {marks,actualGrowth,lastPlayedDate}] [--simulate]
 
-Path of Titans Characters CHARACTERS_LIMIT Workaround
+Path of Titans Characters Limit Workaround
 
 optional arguments:
   -h, --help            show this help message and exit
